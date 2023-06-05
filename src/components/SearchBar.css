@@ -1,0 +1,44 @@
+.search-bar {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .search-bar form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-bar label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .input-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-container button:focus {
+    outline: none;
+  }
+  

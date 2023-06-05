@@ -1,0 +1,29 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .image-show {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image-show img {
+    /* width: 100%;
+    height: auto; */
+    display: block;
+  }
+
+  .OuterDiv{
+      display: flex;
+        /* background-color: #777171  ; */
+}
+
+.InnerDiv{
+    padding: 10px;
+      border-radius:2px ;
+      display: flex;
+    
+  }
